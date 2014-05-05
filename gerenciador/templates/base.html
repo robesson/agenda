@@ -4,10 +4,13 @@
 	{% block cabecalho %}
 		<title>Agenda</title>
 	{% endblock %}
+	 <link rel="stylesheet" href="{{ STATIC_URL }}style.css" type="text/css" media="all" />
 </head>
-<body>
+<body  style="background-color: #ccc">
+	<fieldset>
 	{% block corpo %}
 		<!-- body -->
 	{% endblock %}
+	</fieldset>
 </body>
 </html>
